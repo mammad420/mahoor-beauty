@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>سالن زیبایی ماهور</title>
+  <style>
+    body {
+      font-family: "Vazir", "Tahoma", sans-serif; /* فونت فارسی خوانا */
+      background-color: #fff8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      font-size: 18px; /* اندازه کلی بزرگتر */
+    }
+    header {
+      background-color: #e91e63;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    .contact {
+      background: #fce4ec;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px; /* بزرگتر برای مشخصات تماس */
+      line-height: 2;
+    }
+    .contact a {
+      color: #e91e63;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .service {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      cursor: pointer; /* نشانگر دست برای کلیک */
+      transition: background-color 0.3s, color 0.3s;
+      font-size: 18px;
+    }
+    .service h3 {
+      color: #e91e63;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+    .service:active,
+    .service:focus,
+    .service:hover {
+      background-color: #e91e63;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>سالن زیبایی ماهور</h1>
+    <p>زیبایی شما، تخصص ما</p>
+  </header>
+
+  <section class="contact">
+    <p><strong>آدرس:</strong> ارومیه، خیابان حر، روبروی کوی 9</p>
+    <p><strong>موبایل:</strong> 09331270209 | <strong>تلفن:</strong> 04432768093</p>
+    <p><strong>اینستاگرام:</strong> 
+      <a href="https://instagram.com/mahoor_beauty1404" target="_blank">@mahoor_beauty1404</a>
+    </p>
+  </section>
+
+  <section class="services">
+    <div class="service">
+      <h3>میکاپ و شنیون</h3>
+      <p>میکاپ حرفه‌ای، شنیون عروس و مهمانی</p>
+    </div>
+    <div class="service">
+      <h3>رنگ و دکلره</h3>
+      <p>رنگ مو، دکلره، هایلایت</p>
+    </div>
+    <div class="service">
+      <h3>مراقبت مو</h3>
+      <p>فیبروز، پروتئین، کراتینه، ویتامینه، بوتاکس مو</p>
+    </div>
+    <div class="service">
+      <h3>ناخن و مژه</h3>
+      <p>کاشت ناخن، طراحی، آموزش ناخن، کاشت مژه</p>
+    </div>
+    <div class="service">
+      <h3>اصلاح و کوپ</h3>
+      <p>کوپ حرفه‌ای، اصلاح صورت</p>
+    </div>
+  </section>
+</body>
+</html>
